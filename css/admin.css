@@ -1,0 +1,77 @@
+a,a:hover{
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+/* Logo */
+#log{
+    position: absolute;
+    z-index: 8;
+    top: -5px;
+    left: 15px;
+}
+#log img{
+	margin-left: 45px;
+}
+#log #cir{
+    position: relative;
+    color: #ddd;
+    background: #fff;
+    width: 31.25px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 90px;
+    font-size: 31.25px;
+}
+#log #i{
+    color: #222;
+    font-size: 31.25px;
+    left: 18.75px;
+    font-weight: 800;
+}
+#log #ntro{
+    font-size: 28px;
+    color: #fff;
+}
+
+/* Bar */
+#nav-bar{
+    position: relative;
+    box-sizing: border-box;
+    background: rgb(118,162,207);
+    font-size: 17px;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 10px;
+    height: 70px;
+}
+
+/* list elements */
+a li{
+    position: relative;
+    margin-top: -5px; 
+    display: inline-block;
+    height: 60px;
+    padding: 15px 18px 0px;
+    line-height: 60px;
+}
+
+#home{
+    border-bottom: solid 5px white;
+	padding-top: 0%;
+}
+
+a li{
+    color: #ddd;
+}
+
+a li:hover{
+	padding-top: 0%;
+    cursor: pointer;
+    color: white;
+    border-bottom: solid 5px white;
+	
+}
+/* Navigation Bar Ends */
